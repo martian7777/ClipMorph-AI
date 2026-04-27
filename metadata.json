@@ -1,0 +1,6 @@
+{
+  "name": "Video Processing AI Platform",
+  "description": "AI-powered video processing platform that extracts shorts, generates captions, and writes content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
