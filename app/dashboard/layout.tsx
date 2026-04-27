@@ -91,10 +91,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 <div className="h-full bg-gradient-to-r from-purple-500 to-pink-500 w-[24%]" />
               </div>
             </div>
-            <button className="w-full py-3 flex justify-center items-center gap-2 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white rounded-xl text-xs font-bold transition-all shadow-lg shadow-purple-900/20 uppercase tracking-wider">
+            <Link href="/dashboard/pricing" className="w-full py-3 flex justify-center items-center gap-2 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white rounded-xl text-xs font-bold transition-all shadow-lg shadow-purple-900/20 uppercase tracking-wider">
               <Zap className="w-4 h-4" fill="currentColor" />
               Upgrade Plan
-            </button>
+            </Link>
           </div>
         </aside>
 
